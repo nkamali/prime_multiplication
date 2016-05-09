@@ -20,6 +20,24 @@ column.
 
 * Write tests. Try to demonstrate TDD/BDD.
 
+### Brief Overview of Navid's solution
+
+I opened up the Fixnum class and added methods is_prime?, prime_numbers and multiply_primes.
+
+I also opened up the String class and added method is_integer?.
+
+If you ```ruby prime_multiplication.rb```, from the command line, it will prompt you to enter N in order
+
+to see the first N prime numbers. It handles error checking on the input and will only output the multiplication
+
+table only if you enter a valid integer or just press Enter.
+
+If you press Enter, 10 will be used by default for the value of N.
+
+You can type 'exit' or 'quit' to exit the program. Otherwise, the program will loop and ask you to enter another N
+
+in order to see its output.
+
 ### Setup
 
 Clone the repo.
